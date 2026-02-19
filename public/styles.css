@@ -411,14 +411,14 @@ body {
 
 .projects-track {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   overflow-x: auto;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   -ms-overflow-style: none;
   padding: 1rem;
-  margin: 0 -1.5rem;
+  margin: 0 -1rem;
 }
 
 .projects-track::-webkit-scrollbar {
@@ -426,13 +426,13 @@ body {
 }
 
 .project-card-horizontal {
-  flex: 0 0 calc(100% - 3rem);
-  max-width: calc(100% - 3rem);
+  flex: 0 0 85%;
+  max-width: 85%;
   scroll-snap-align: center;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   background: var(--bg-card);
   border: 1px solid var(--border-light);
-  border-radius: 32px;
+  border-radius: 24px;
   overflow: hidden;
   transition: all 0.5s;
   display: block;
@@ -441,7 +441,7 @@ body {
 }
 
 .project-card-horizontal:last-child {
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -1004,6 +1004,11 @@ body {
     margin-bottom: 7rem;
   }
 
+  .image-container {
+    border-radius: 24px;
+    max-width: 320px;
+  }
+
   .stats-grid {
     gap: 1.5rem;
     text-align: center;
@@ -1017,16 +1022,69 @@ body {
     font-size: 1.75rem;
   }
 
+  .project-info-horizontal {
+    padding: 1.5rem;
+  }
+
+  .project-title-horizontal {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .project-description-horizontal {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
+
   .experience-card {
-    padding: 2rem;
+    padding: 1.5rem;
+  }
+
+  .experience-period {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.75rem;
   }
 
   .experience-role {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .experience-description {
+    font-size: 0.9375rem;
+  }
+
+  .certificate-card {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .certificate-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+
+  .certificate-title {
+    font-size: 1.125rem;
+  }
+
+  .contact-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .contact-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-title {
+    font-size: 1.25rem;
   }
 
   .contact-header {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .scroll-indicator {
