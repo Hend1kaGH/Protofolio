@@ -18,7 +18,7 @@ const CONFIG = {
     logoIcon: 'H',
     logoText: 'Hendika',
     browserTitle: 'Hendika | Cybersecurity & Web',
-    favicon: 'public/images/profile/logo.png' // Gantilah dengan path logo Anda
+    favicon: 'images/profile/logo.png' // Gantilah dengan path logo Anda
   },
 
   // ===== HERO SECTION =====
@@ -35,7 +35,7 @@ const CONFIG = {
     description: 'A passionate student focused on cybersecurity and web development. I combine technical skills with a strong curiosity to create safe, efficient, and user-friendly digital solutions.',
 
     // ⬇️ GANTI DENGAN PATH LOCAL ANDA
-    image: 'public/images/profile/hendika.jpg',
+    image: 'images/profile/hendika.jpg',
 
 
   },
@@ -46,7 +46,7 @@ const CONFIG = {
       id: '1',
       title: 'Karma.in',
       description: 'Karma In is a website translator that makes it easy to instantly and accurately translate text into multiple languages—free and hassle-free.',
-      image: 'public/images/projects/karma-in.jpg',
+      image: 'images/projects/karma-in.jpg',
       category: 'Web Development',
       tags: ['React', 'Gemini', 'Translaotor'],
       repo: 'https://github.com/Hend1kaGH/Karma.in.git'
@@ -55,7 +55,7 @@ const CONFIG = {
       id: '2',
       title: 'HendikaCTF',
       description: 'A web-based Capture The Flag (CTF) competition platform featuring a retro terminal aesthetic. Designed to train cybersecurity problem-solving skills with secure flag hashing and an immersive UI.',
-      image: 'public/images/projects/HendikaCTF.jpg',
+      image: 'images/projects/HendikaCTF.jpg',
       category: 'Web Development',
       tags: ['HTML', 'CSS', 'JavaScript', 'CTF', 'Cybersecurity'],
       repo: 'https://github.com/Hend1kaGH/HendikaCTF.git'
@@ -64,7 +64,7 @@ const CONFIG = {
       id: '3',
       title: 'Protofolio',
       description: 'A Python-based script for monitoring network traffic and detecting suspicious activities in real-time.',
-      image: 'public/images/projects/protofolio.jpg',
+      image: 'images/projects/protofolio.jpg',
       category: 'Web Development',
       tags: ['HTML', 'CSS', 'JavaScript', 'Protofolio'],
       repo: 'https://github.com/Hend1kaGH/Protofolio.git'

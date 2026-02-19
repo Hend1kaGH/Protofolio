@@ -203,5 +203,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   console.log('✅ Portfolio loaded successfully!');
-  console.log('📁 Using local assets from ./assets/images/');
+  console.log('📁 Using local assets from ./images/');
 });
